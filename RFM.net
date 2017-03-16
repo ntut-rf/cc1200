@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/en/Desktop/TTCSTM/PCB/RFM/RFM.sch)
-    (date "Thu 16 Mar 2017 09:05:05 PM CST")
+    (date "Thu 16 Mar 2017 10:14:34 PM CST")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -35,6 +35,7 @@
       (tstamp 58C1776E))
     (comp (ref U3)
       (value BALF-112X-02D3)
+      (footprint CC1200:BALF-112X-02D3)
       (libsource (lib RFM) (part BALF-112X-02D3))
       (sheetpath (names /) (tstamps /))
       (tstamp 58C1D8D5))
