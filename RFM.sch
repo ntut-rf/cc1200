@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:RFM-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -140,7 +139,7 @@ U 1 1 58C14D8E
 P 7800 2125
 F 0 "U2" H 8450 1075 60  0000 C CNN
 F 1 "CC1200" H 7775 2125 60  0000 C CNN
-F 2 "Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm" H 9125 2575 60  0001 C CNN
+F 2 "CC1200:CC1200" H 9125 2575 60  0001 C CNN
 F 3 "" H 9125 2575 60  0001 C CNN
 	1    7800 2125
 	1    0    0    -1  
