@@ -1,4 +1,4 @@
-update=Thu 16 Mar 2017 09:03:33 PM CST
+update=Thu 16 Mar 2017 11:30:38 PM CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -72,3 +72,4 @@ LibName30=RFM
 LibName31=stm32
 LibName32=switches
 LibName33=rfcom
+LibName34=gsg-kicad-lib/gsg-symbols
