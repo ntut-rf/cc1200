@@ -1,4 +1,4 @@
-update=Thu 16 Mar 2017 11:30:38 PM CST
+update=Fri 17 Mar 2017 05:55:51 PM CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -68,8 +68,7 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=RFM
-LibName31=stm32
-LibName32=switches
-LibName33=rfcom
-LibName34=gsg-kicad-lib/gsg-symbols
+LibName30=stm32
+LibName31=switches
+LibName32=gsg-kicad-lib/gsg-symbols
+LibName33=cclib
