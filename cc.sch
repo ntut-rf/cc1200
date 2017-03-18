@@ -402,9 +402,9 @@ F 3 "" H 2100 1175 50  0000 C CNN
 	1    2100 1175
 	0    -1   -1   0   
 $EndComp
-Text GLabel 2975 725  0    47   Input ~ 0
-USART_TX
 Text GLabel 2975 825  0    47   Input ~ 0
+USART_TX
+Text GLabel 2975 725  0    47   Input ~ 0
 USART_RX
 Text GLabel 1600 3725 0    47   Input ~ 0
 CC_MISO
@@ -1242,13 +1242,13 @@ SPI_MISO
 Text GLabel 4700 3625 2    47   Input ~ 0
 SPI_MOSI
 Text GLabel 2975 1275 0    47   Input ~ 0
-SPI_NSS
-Text GLabel 2975 1375 0    47   Input ~ 0
-SPI_SCK
-Text GLabel 2975 1475 0    47   Input ~ 0
-SPI_MISO
-Text GLabel 2975 1575 0    47   Input ~ 0
 SPI_MOSI
+Text GLabel 2975 1375 0    47   Input ~ 0
+SPI_MISO
+Text GLabel 2975 1475 0    47   Input ~ 0
+SPI_SCK
+Text GLabel 2975 1575 0    47   Input ~ 0
+SPI_NSS
 $Comp
 L CONN_01X05 J5
 U 1 1 58C52067
