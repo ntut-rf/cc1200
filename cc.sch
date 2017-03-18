@@ -96,9 +96,9 @@ Text GLabel 1600 4425 0    47   Input ~ 0
 SWDIO
 Text GLabel 1600 4525 0    47   Input ~ 0
 SWCLK
-Text GLabel 1600 3425 0    47   Input ~ 0
+Text GLabel 1600 5550 0    47   Input ~ 0
 USART_RX
-Text GLabel 1600 3325 0    47   Input ~ 0
+Text GLabel 1600 5450 0    47   Input ~ 0
 USART_TX
 $Comp
 L CC1200 U2
@@ -416,11 +416,11 @@ Text GLabel 1600 5150 0    47   Input ~ 0
 SWO
 Text GLabel 1600 3525 0    47   Input ~ 0
 CC_NSS
-Text GLabel 1600 4025 0    47   Input ~ 0
+Text GLabel 1600 5950 0    47   Input ~ 0
 CC_RESET_N
-Text GLabel 1600 3925 0    47   Input ~ 0
-CC_GPIO0
 Text GLabel 1600 3125 0    47   Input ~ 0
+CC_GPIO0
+Text GLabel 1600 5050 0    47   Input ~ 0
 CC_GPIO2
 $Comp
 L R R1
@@ -909,34 +909,34 @@ $EndComp
 $Comp
 L LED_Small_ALT D2
 U 1 1 58C31362
-P 1500 5550
-F 0 "D2" H 1450 5675 50  0000 L CNN
-F 1 "LED_TEST" H 1325 5450 50  0000 L CNN
-F 2 "LEDs:LED_0603" V 1500 5550 50  0001 C CNN
-F 3 "" V 1500 5550 50  0000 C CNN
-	1    1500 5550
-	1    0    0    -1  
+P 3725 6275
+F 0 "D2" H 3675 6400 50  0000 L CNN
+F 1 "LED_TEST" H 3550 6175 50  0000 L CNN
+F 2 "LEDs:LED_0603" V 3725 6275 50  0001 C CNN
+F 3 "" V 3725 6275 50  0000 C CNN
+	1    3725 6275
+	-1   0    0    1   
 $EndComp
 $Comp
 L R R2
 U 1 1 58C31AFC
-P 1250 5550
-F 0 "R2" V 1330 5550 50  0000 C CNN
-F 1 "200" V 1250 5550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1180 5550 50  0001 C CNN
-F 3 "" H 1250 5550 50  0000 C CNN
-	1    1250 5550
-	0    -1   -1   0   
+P 3975 6275
+F 0 "R2" V 4055 6275 50  0000 C CNN
+F 1 "200" V 3975 6275 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3905 6275 50  0001 C CNN
+F 3 "" H 3975 6275 50  0000 C CNN
+	1    3975 6275
+	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR039
 U 1 1 58C31BFA
-P 975 5550
-F 0 "#PWR039" H 975 5300 50  0001 C CNN
-F 1 "GND" H 975 5400 50  0000 C CNN
-F 2 "" H 975 5550 50  0000 C CNN
-F 3 "" H 975 5550 50  0000 C CNN
-	1    975  5550
+P 4250 6275
+F 0 "#PWR039" H 4250 6025 50  0001 C CNN
+F 1 "GND" H 4250 6125 50  0000 C CNN
+F 2 "" H 4250 6275 50  0000 C CNN
+F 3 "" H 4250 6275 50  0000 C CNN
+	1    4250 6275
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -983,7 +983,7 @@ F 3 "" H 10850 4550 50  0000 C CNN
 	1    10850 4550
 	1    0    0    -1  
 $EndComp
-Text GLabel 1600 3225 0    47   Input ~ 0
+Text GLabel 1600 5850 0    47   Input ~ 0
 CC_GPIO3
 Text Notes 4075 725  0    60   ~ 0
 Linear regulator
@@ -1463,14 +1463,10 @@ $EndComp
 NoConn ~ 1775 4625
 NoConn ~ 1775 4850
 NoConn ~ 1775 4950
-NoConn ~ 1775 5050
 NoConn ~ 1775 5250
 NoConn ~ 1775 5350
-NoConn ~ 1775 5450
 NoConn ~ 1775 5650
 NoConn ~ 1775 5750
-NoConn ~ 1775 5850
-NoConn ~ 1775 5950
 NoConn ~ 4525 4450
 NoConn ~ 4525 4550
 NoConn ~ 4525 4650
@@ -1487,7 +1483,6 @@ NoConn ~ 4525 5650
 NoConn ~ 4525 5750
 NoConn ~ 4525 5850
 NoConn ~ 4525 5950
-NoConn ~ 3450 6275
 $Comp
 L SW_Push SW2
 U 1 1 58CD69BB
@@ -1710,9 +1705,9 @@ Wire Wire Line
 Connection ~ 5425 4025
 Connection ~ 5025 4025
 Wire Wire Line
-	1775 5550 1600 5550
+	3450 6275 3625 6275
 Wire Wire Line
-	1100 5550 975  5550
+	4125 6275 4250 6275
 Wire Wire Line
 	10400 4275 10700 4275
 Wire Wire Line
@@ -1793,13 +1788,9 @@ Wire Wire Line
 	750  925  700  925 
 Connection ~ 700  925 
 Wire Wire Line
+	1600 5550 1775 5550
+Wire Wire Line
 	1600 3125 1775 3125
-Wire Wire Line
-	1600 3425 1775 3425
-Wire Wire Line
-	1600 4025 1775 4025
-Wire Wire Line
-	1600 3925 1775 3925
 Wire Wire Line
 	1775 3825 1600 3825
 Wire Wire Line
@@ -1813,9 +1804,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 4425 1775 4425
 Wire Wire Line
-	1775 3225 1600 3225
-Wire Wire Line
-	1775 3325 1600 3325
+	1775 5450 1600 5450
 Wire Wire Line
 	1600 4125 1775 4125
 Wire Wire Line
@@ -1900,4 +1889,15 @@ Wire Wire Line
 	3100 6275 3100 6350
 Wire Wire Line
 	3100 6350 3150 6350
+Wire Wire Line
+	1600 5050 1775 5050
+Wire Wire Line
+	1600 5850 1775 5850
+Wire Wire Line
+	1600 5950 1775 5950
+NoConn ~ 1775 3925
+NoConn ~ 1775 3225
+NoConn ~ 1775 4025
+NoConn ~ 1775 3325
+NoConn ~ 1775 3425
 $EndSCHEMATC
