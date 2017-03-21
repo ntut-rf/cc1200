@@ -988,7 +988,7 @@ CC_GPIO3
 Text Notes 4075 725  0    60   ~ 0
 Linear regulator
 Text Notes 9125 6525 0    60   ~ 0
-TODO: Front end, GPS, STM32F207VC, DCMI, \nuBLOX NEO-6Q/MAX-6Q\n\n
+TODO: Front end, Camera,\nuBLOX NEO-6Q/MAX-6Q\n\n
 Text Notes 3925 1850 0    60   ~ 0
 Consider using LP38798
 $Comp
